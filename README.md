@@ -1,5 +1,6 @@
 # Ex. No: 12 – Packet Tracer: Use Ping and Traceroute to Test Network Connectivity
-# Date: ______________________
+# Date: 30/03/2026
+
 ________________________________________<br>
 # Objective
 To test and restore IPv4 and IPv6 network connectivity using diagnostic commands (ping and tracert), identify faults, and verify proper routing between end devices in a dual-stack (IPv4 + IPv6) topology.<br>
@@ -16,7 +17,9 @@ ________________________________________<br>
 • Copper straight-through and serial DCE/DTE cables<br>
 ________________________________________<br>
 # Network Topology Diagram
-(Insert your Packet Tracer screenshot showing R1 ↔ R2 ↔ R3 with PCs PC1–PC4 connected.)<br>
+
+<img width="1077" height="454" alt="image" src="https://github.com/user-attachments/assets/ea48d8ba-9a77-4a47-8073-121617c6ba2c" />
+
 ________________________________________<br>
 Addressing Table<br>
 Device	Interface	IPv4 Address / Subnet Mask	IPv6 Address / Prefix	Default Gateway<br>
@@ -119,8 +122,22 @@ show ipv6 interface brief	Verify IPv6 interface status<br>
 ________________________________________
 # Output (Attach Screenshots)
 • Command outputs (ipconfig, ipv6config, ping, tracert) for PCs.<br>
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/a62a0aac-44aa-4783-a3f2-3b351525bf49" />
+
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/4da99329-955c-47fc-870b-23566060d500" />
+
 • Router interface and routing tables.<br>
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c38af9da-e238-4950-aa96-94e1bb604d98" />
+
+
 • Successful ping results after fixes.<br>
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c6b839b9-286c-4c50-9b00-0a42a8c7a3de" />
+
+
+<
+
 ________________________________________<br>
 # Result
 IPv4 and IPv6 connectivity issues were diagnosed and resolved using ping and tracert commands. Routers and PCs achieved full dual-stack communication after correcting configuration errors, confirming network restoration and routing accuracy.<br>
